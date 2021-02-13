@@ -27,11 +27,9 @@ export default function Calculator() {
     }
   }
 
-
-
   return (
     <div className="layout-column align-items-center">
-      <div data-testid="total-operations" className="pt-50 total-operations"></div>
+      <div data-testid="total-operations" className="pt-50 total-operations">Total operations performed: {operations}</div>
       <div className="card">
 
         <section className="card-text">
